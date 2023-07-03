@@ -1,3 +1,7 @@
+# This code works on server script inside the frappe framework
+# event => before_save
+# doctype => lead
+
 lead_score = 0
 
 if doc.source:
